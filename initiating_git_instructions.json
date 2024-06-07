@@ -1,0 +1,49 @@
+{
+    "steps": [
+        {
+            "step": 1,
+            "command": "git init",
+            "description": "Initialize a new Git repository"
+        },
+        {
+            "step": 2,
+            "command": "git add .",
+            "description": "Add files to the repository"
+        },
+        {
+            "step": 3,
+            "command": "git commit -m 'first commit'",
+            "description": "Commit changes"
+        },
+        {
+            "step": 4,
+            "command": "git branch -M main",
+            "description": "Create or rename the main branch"
+        },
+        {
+            "step": 5,
+            "command": "git remote add origin {solution_name}.git",
+            "description": "Add a remote repository"
+        },
+        {
+            "step": 6,
+            "command": "git push -u origin main",
+            "description": "Push changes to the main branch of the remote repository"
+        },
+        {
+            "step": 7,
+            "command": "git remote add origin https://github.com/JoeEberle/{solution_name}/{solution_name}.git",
+            "description": "Add another remote repository"
+        },
+        {
+            "step": 8,
+            "command": "git branch -M main",
+            "description": "Create or rename the main branch again"
+        },
+        {
+            "step": 9,
+            "command": "git push -u origin main",
+            "description": "Push changes to the main branch of the second remote repository"
+        }
+    ]
+}
